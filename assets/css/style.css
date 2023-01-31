@@ -1,1 +1,95 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 50px 200px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+}
+.container .box {
+  width: 900px;
+  height: 100% auto;
+  margin: 20px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+.container .box .add-list {
+  background-color: rgba(67, 150, 222, 0.6);
+  width: 100%;
+  height: 90px;
+  margin: 20px;
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  border-radius: 10px;
+}
+.container .box .add-list input {
+  width: 100%;
+  margin: 10px 50px;
+  height: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.container .box .add-list button {
+  width: 200px;
+  height: 50px;
+  margin: 10px 50px;
+  border: none;
+  background-color: green;
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.container .box .task-list {
+  background-color: rgba(67, 150, 222, 0.6);
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.container .box .task-list .list {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  margin: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex-direction: row;
+  border-radius: 10px;
+  border-bottom: 1px solid gray;
+}
+.container .box .task-list .list span {
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.container .box .task-list .list button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  background-color: rgb(208, 10, 13);
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: 900;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
