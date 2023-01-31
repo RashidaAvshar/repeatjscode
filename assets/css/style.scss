@@ -15,7 +15,7 @@
     justify-content: center;
     .box{
         width: 900px;
-        height: 100% auto;
+        height: 100%;
         margin: 20px;
         background-color: aliceblue;
         display: flex;
@@ -56,23 +56,24 @@
 
         }
         .task-list{
-            background-color: rgba(67, 150, 222, 0.6);
+            background-color: rgba(67, 150, 222, 0.227);
             width: 100%;
-            height: 100px;
+            height: 100%;            
             border-radius: 10px;
             display: flex;
             align-items: center;
-            flex-direction: row;
+            flex-direction: column-reverse;
             .list{
             width: 100%;
             height: 60px;
             padding: 10px;
-            margin: 10px 50px;            display: flex;
+            margin: 10px 50px;            
+            display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 10px;
             flex-direction: row;
-            border-radius: 10px;
+            border-radius: 5px;
             border-bottom: 1px solid gray;
             span{
                 padding: 20px;
